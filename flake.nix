@@ -45,6 +45,7 @@
 
               script =
               ''
+                #!/bin/sh
                 set -e
                 echo "🚀 Deploying nixosConfigurations.${machine} from ${flake}"
                 echo "👤 SSH User: ${user}"
